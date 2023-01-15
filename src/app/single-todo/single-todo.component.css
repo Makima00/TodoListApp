@@ -1,0 +1,12 @@
+#todoDetail{
+    width: 60%;
+    min-width: 350px;
+    padding: 5px;
+    display: flex;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#todoDetail p{
+    text-align: justify;
+}

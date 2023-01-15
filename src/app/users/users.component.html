@@ -1,0 +1,13 @@
+<a class="btn btn-success my-3" routerLink="/add-user">Ajouter un utilisateur</a>
+<p>Liste des utilisateurs :</p>
+<ul class="list-group">
+    <li *ngFor="let user of users" class="list-group-item">
+        <p>Nom :{{user.firstname}}</p>
+        <p>Prenom : {{user.lastname}}</p>
+        <p>Alias : <strong *ngFor="let alias of user.alias">{{alias}},</strong></p>
+        <p>Date de naissance : {{user.dateBirth}}</p>
+        <p>Description : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim, fugit, optio numquam vitae
+            blanditiis culpa accusamus porro aliquid suscipit veritatis voluptatem. Officia pariatur a libero dolores
+            ratione perspiciatis expedita!</p>
+    </li>
+</ul>

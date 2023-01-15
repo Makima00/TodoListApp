@@ -1,0 +1,7 @@
+<div id="todoDetail" class="card" *ngIf="todo">
+    <div>
+        <img [src]=" todo.image" alt="image du tache selectionner" />
+        <h2>{{todo.nomTache}}</h2>
+        <p>{{todo.description}}</p>
+    </div>
+</div>
